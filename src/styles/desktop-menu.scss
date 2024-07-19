@@ -1,0 +1,23 @@
+.card {
+  
+   display: flex;
+    width: 100%;
+   flex-wrap: wrap;
+  
+    background-color: rgb(255, 255, 201);
+    &__header__welcome{
+        font-size: medium;
+        font-weight:  400;
+        font-style: italic;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+    &__header__explanation {
+        font-style: italic;
+        font-weight: 500;
+        margin: 15px ;
+        width: 95%;
+    }
+}
