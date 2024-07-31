@@ -1,7 +1,19 @@
 .info {
+      @media (max-width:900px) and (min-width:340px)  {
+        width: 95%;
+        height: 600px;
+        left: 1px;
+        right: 10px;
+       margin-left: 7px;
+
+        
+        
+    }
+    
     position: relative;
     display: flex;
-    box-shadow: 0 2px 4px $card-shadow;
+    flex-wrap: wrap;
+    box-shadow:  5px 5px 10px rgb(37, 52, 65);
     overflow: hidden;
    margin: 20px ;
     left: 15px;
@@ -9,71 +21,137 @@
     text-align: center;
     border: 1px solid $card-border;
     border-radius: 8px;
-    max-width: 200vh;
-   width: 100%;
-   height: 100vh;
+   
+   width: 95%;
+   height: 700px;
     background-color: rgb(255, 255, 201);
-flex-wrap: wrap;
-
+ 
+  
     &__second{
-        position: absolute;
+          @media (max-width:900px) and (min-width:340px)  {
+        width: 100%;
+        right: 130px;
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        
+    }
+    display: flex;
+    flex-wrap: wrap;
+        position:absolute;
+        
         flex-direction: column;
+        width: fit-content;
+
     }
     &__image{
-        display: block;
+         @media (max-width:900px) and (min-width:340px)  {
+        width: 100%;
+        
+    }
+        display: flex;
         width: 100%;
         height: auto;
+        flex-wrap: wrap;
+
     }
     &__second__name{
+        @media (max-width:900px) and (min-width:340px) {
+        width: max-content;
+        left: 152px;
+        padding: 10px;
+        padding-top: 20px;
+       margin-top: 70px;
+        margin-right: 50px;
+        display: flex;
+        margin-bottom: 480px;
+    }
+     box-shadow: 2px 2px 5px rgb(104, 165, 206);
         position: absolute;
         display: flex;
-        justify-content: flex-start;
-        align-items: center;
-       left: 200px;
-        width: 280px;
-        height: 100px;
+        flex-wrap: wrap;
+        left: 200px;
+        width: max-content;
+        height: 150px;
         padding: 15px;
         margin-top: 15px;
         font-size: 50px;
         font-style:italic;
         background: inherit;
-        backdrop-filter: blur(5px);
-        color: antiquewhite;
+        backdrop-filter: blur(10px) ;
+        color: white;
         font-weight: bold;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
       
     }
     &__second__describe{
+          @media (max-width:900px) and (min-width:340px) {
+        width: 300px;
+        height: 380px;
+       padding-bottom: 10px;
+        margin-bottom: 85px;
+        left: 152px;
+        text-wrap: wrap;
+        font-weight: bold;
+       line-height: 1.4;
+        text-align: center;
+        hyphens: auto;
+        word-break: break-word;
+        overflow-wrap:break-word ;
+      padding-bottom: 100px;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content:flex-start;
+       
+        
+    }
         display: flex;
-        position: relative;
+       
+        justify-content: center;
+        align-items: center;
+
        left: 200px;
         position: absolute;
         background: inherit;
-        backdrop-filter: blur(5px);
+        backdrop-filter: blur(10px);
         padding: 30px;
         color: white;
         width: 800px;
-        height: 200px;
+        line-height: 2;
+        height: 250px;
         margin-top: 100px;
         font-weight: bold;
         font-style: italic;
-        overflow: hidden;
+       overflow: hidden;
+     box-shadow: 2px 2px 5px rgb(113, 199, 214);
+
 
     }
     &__second__btn {
+       @media (max-width:900px) and (min-width:340px)  {
+            margin-top: 470px;
+            margin-right: 550px;
+         left: 2px;
+         
+         
+            
+        }
         position: relative;
         left: 300px;
-        margin-top: 300px;
+        margin-top: 350px;
         margin-left: 230px;
         width: 150px;
         height: 50px;
         padding: 15px;
         cursor: pointer;
-        background-color:rgb(249, 253, 214) ;
+        background-color:rgb(173, 240, 245) ;
         border: none;
         border-radius: 10px;
         color: rgb(173, 165, 165);
         font-size: 20px;
+        box-shadow: 2px 2px 10px aliceblue;
         transition: background-color 0.3s, transform 0.3s;
         &:hover {
             color: rgb(112, 114, 105);

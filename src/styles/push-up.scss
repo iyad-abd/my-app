@@ -2,30 +2,33 @@
     display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        background-color: rgb(176, 197, 101);
+        background-color: rgb(169, 202, 252);
 
         &__benifits{
-            display: flex;
-            
+            @media  (max-width:760px) and (min-width:340px) {
+               height: fit-content; 
+               background-color:aliceblue;
+            }
+             display: flex;
                 flex-direction: column;
-                background-color: rgb(205, 243, 69);
+                background-color: aliceblue;
                 border-radius: 15px;
                 margin: 10px;
                 width: 95%;
-            
                 height: 280px;
                 padding-left: 15px;
                 padding-top: 15px;
                 overflow: hidden;
-                transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+                
+                 box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
             
-                &:hover {
-                    transform: translateY(-5px);
-                    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-                }
+                
 
         }
         &__benifits__title{
+             @media  (max-width:760px) and (min-width:340px) {
+                text-align: center;
+             }
             font-style: italic;
                 font-weight: bold;
                 font-size: larger;
@@ -33,16 +36,25 @@
                 padding-bottom: 5px;
         }
         &__benifits__list{
+             @media  (max-width:760px) and (min-width:340px) {
+                hyphens: auto;
+                line-height: 1.5;
+                padding: 25px;
+             }
             font-style: italic;
                 padding-left: 40px;
                 padding-top: 8px;
                 font-size: large;
         }
         &__targeted-muscles{
+            @media  (max-width:760px) and (min-width:340px) {
+             height: fit-content;
+                
+            }
             display: flex;
             
                 flex-direction: column;
-                background-color: rgb(205, 243, 69);
+                background-color:aliceblue;
                 border-radius: 15px;
                 margin: 10px;
                 width: 95%;
@@ -51,15 +63,16 @@
                 padding-left: 15px;
                 padding-top: 15px;
                 overflow: hidden;
-                transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+                 box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
             
-                &:hover {
-                    transform: translateY(-5px);
-                    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-                }
+                
 
         }
         &__targeted-muscles__title{
+            @media  (max-width:760px) and (min-width:340px) {
+                text-align: center;
+             }
+
             font-style: italic;
                 font-weight: bold;
                 font-size: larger;
@@ -67,6 +80,13 @@
                 padding-bottom: 5px;
         }
         &__targeted-muscles__list{
+             @media  (max-width:760px) and (min-width:340px){
+                text-align: left;
+                line-height: 1.5;
+                hyphens: auto;
+               padding-left: 25px;
+               margin: 15px;
+             }
             font-style: italic;
                 padding-left: 40px;
                 padding-top: 8px;
@@ -74,34 +94,47 @@
 
         }
         &__variations{
-            display: flex;
-            
+             @media  (max-width:760px) and (min-width:340px){
+                height: fit-content; 
+                
+                
+             }
+                display: flex;
                 flex-direction: column;
-                background-color: rgb(205, 243, 69);
+                background-color:aliceblue;
                 border-radius: 15px;
                 margin: 10px;
                 width: 95%;
-            
-                height: 450px;
+                height: 250px;
                 padding-left: 15px;
                 padding-top: 15px;
                 overflow: hidden;
-                transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-            
-                &:hover {
-                    transform: translateY(-5px);
-                    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-                }
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+               
 
         }
         &__variations__title{
-            font-style: italic;
+             @media  (max-width:760px) and (min-width:340px){
+                text-align: center;
+
+             }
+                font-style: italic;
                 font-weight: bold;
                 font-size: larger;
                 padding-left: 10px;
                 padding-bottom: 5px;
         }
         &__variations__list{
+            @media  (max-width:760px) and (min-width:340px) {
+                text-align: left;
+                hyphens: auto;
+                word-break: break-word;
+                overflow-wrap:break-word ;
+                line-height: 1.5;
+                margin: 10px;
+                padding-left: 25px;
+                
+            }
             font-style: italic;
                 padding-left: 40px;
                 padding-top: 8px;
@@ -111,13 +144,14 @@
                  &__navbar {
                     top: 0;
                      position: sticky;
-                     display: flex;
+                      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+                     display:flex;
                      flex-direction: column;
-                     background-color: rgb(205, 243, 69);
+                     background-color:aliceblue;
                      ;
                      height: 70px;
                      border-radius: 15px;
-                     width: 98%;
+                     width: 95%;
                      margin: 10px;
                  }
         
@@ -127,10 +161,11 @@
                      font-size: large;
                      font-style: italic;
                      padding-top: 5px;
+                     
                  }
         
                  &__navbar__btn {
-                     background-color: rgb(215, 245, 107);
+                     background-color:rgb(235, 244, 252);
                      ;
                      border-radius: 10px;
                      border: none;
@@ -138,6 +173,7 @@
                      height: 40px;
                      text-align: center;
                      cursor: pointer;
+                     box-shadow: 5px 2px 5px rgb(220, 233, 229);
                      transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
         
                      &:hover {

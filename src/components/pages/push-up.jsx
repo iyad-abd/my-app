@@ -12,14 +12,14 @@ function Pushup() {
             <div className="pushup__benifits">
                 <p className="pushup__benifits__title">Benifits off Push-Ups exercise</p>
                 <ul className="pushup__benifits__list">
-    <li><strong></strong> Builds upper body strength</li>
-    <li><strong></strong> Improves grip strength</li>
-    <li><strong></strong> Engages core muscles</li>
-    <li><strong></strong> Enhances functional fitness</li>
-    <li><strong></strong> Promotes better posture</li>
-    <li><strong></strong> Versatile and scalable</li>
-    <li><strong></strong> Boosts confidence</li>
-    <li><strong></strong> Supports joint health</li>
+    <li><strong></strong> <b> Builds upper body strength</b></li>
+    <li><strong></strong> <b> Improves grip strength</b></li>
+    <li><strong></strong> <b> Engages core muscles</b></li>
+    <li><strong></strong> <b> Enhances functional fitness</b></li>
+    <li><strong></strong> <b> Promotes better posture</b></li>
+    <li><strong></strong> <b> Versatile and scalable</b></li>
+    <li><strong></strong> <b> Boosts confidence</b></li>
+    <li><strong></strong> <b> Supports joint health</b></li>
 </ul>
     
             </div>
@@ -42,14 +42,7 @@ function Pushup() {
         <li><strong> Decline Push-Up:</strong> Feet elevated, increasing difficulty and targeting upper chest and shoulders.</li>
         <li><strong> Plyometric Push-Up:</strong> Explosive push-up with a clap, enhancing power and strength.</li>
         <li><strong> Archer Push-Up:</strong> One arm extends sideways, intensifying the exercise on one side.</li>
-        <li><strong> Clap Push-Up:</strong> Push-up followed by a clap in the air, improving explosive strength.</li>
-        <li><strong> Spiderman Push-Up:</strong> Knee to elbow movement, engaging core and obliques.</li>
-        <li><strong> One-Arm Push-Up:</strong> Push-up performed with one arm, significantly challenging strength.</li>
-        <li><strong> Chest Tap Push-Up:</strong> Tap chest with hand at the top, improving balance and coordination.</li>
-        <li><strong> Hindu Push-Up:</strong> Flowing motion combining push-up and downward dog, enhancing flexibility.</li>
-        <li><strong> Pseudo Planche Push-Up:</strong> Hands positioned lower towards hips, increasing shoulder engagement.</li>
-        <li><strong> Staggered Push-Up:</strong> Hands at different heights, engaging different muscle groups.</li>
-        <li><strong> T Push-Up:</strong> Push-up followed by rotation into side plank, targeting core and shoulders.</li>
+       
     
     </ul>
 </div>

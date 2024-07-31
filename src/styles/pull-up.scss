@@ -3,28 +3,36 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    background-color: rgb(176, 197, 101);
+    background-color: rgb(169, 202, 252); 
 
     &__1st{
+         @media (max-width:760px) and (min-width:340px){
+               
+            height: fit-content; 
+               background-color:aliceblue;
+            }
         display: flex;
         
         flex-direction: column;
-        background-color: rgb(205, 243, 69);
+        background-color:aliceblue;
         border-radius: 15px;
         margin: 10px;
         width: 95%;
-        
-        height: 280px;
+        line-height: 1.5;
+        height: fit-content;
         padding-left: 15px;
         padding-top: 15px;
         overflow: hidden;
-            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-            &:hover {
-                    transform: translateY(-5px);
-                    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-                }
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+           
     }
     &__1st__benefits{
+         @media  (max-width:760px) and (min-width:340px) {
+            
+         
+            text-align: center;
+         }
+
         font-style: italic;
         font-weight: bold;
         font-size: larger;
@@ -33,36 +41,51 @@
 
     }
     &__1st__benefits-list {
+         @media  (max-width:760px) and (min-width:340px) {
+            line-height: 1.5;
+        padding-left: 25px;
+        margin: 10px;
+         }
+        
         font-style: italic;
-        padding-left: 40px;
+        padding-left: 60px;
         padding-top: 8px;
         font-size: large;
     }
     &__2nd {
+         @media  (max-width:760px) and (min-width:340px) {
+            height: fit-content;
+            
+         }
         display: flex;
             flex-direction: column;
-            background-color: rgb(205, 243, 69);
+            background-color: aliceblue;
             border-radius: 15px;
             margin: 10px;
             width: 95%;
-            height: 430px;
+            height: 350px;
             padding-left: 10px;
             padding-top: 15px;
             overflow: hidden;
-            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
         
-            &:hover {
-                transform: translateY(-5px);
-                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-            }
+           
         
 
     }
        
     &__2nd__header{
+         @media  (max-width:760px) and (min-width:340px) {
+            font-size: larger;
+            
+         }
+
         padding-left: 25px;
     }
     &__2nd__2ndheader{
+         @media  (max-width:760px) and (min-width:340px) {
+            text-align: center;
+         }
         padding-left: 30px;
         padding-top: 5px;
         font-size: large;
@@ -70,12 +93,22 @@
         font-style: italic;
     }
     &__2nd__primary-list{
+        @media  (max-width:760px) and (min-width:340px) {
+            text-align: left;
+            hyphens: auto;
+            line-height: 1.5;
+            padding-left: 25px;
+            
+         }
         padding-left: 60px;
         font-style: italic;
         font-size: large;
         margin: 5px;
     }
     &__2nd__3rdheader{
+         @media  (max-width:760px) and (min-width:340px) {
+            text-align: center;
+         }
         padding-left: 30px;
             padding-top: 5px;
             font-size: large;
@@ -84,45 +117,43 @@
 
     }
     &__2nd__secondary-list{
+        @media  (max-width:760px) and (min-width:340px) {
+            text-align: left;
+            hyphens: auto;
+            line-height: 1.5;
+            padding-left: 25px;
+            
+         }
         padding-left: 60px;
             font-style: italic;
             font-size: large;
             margin: 5px;
+            line-height: 1.5;
 
     }
-    &__2nd__4th-header{
-    padding-left: 30px;
-    padding-top: 5px;
-    font-size: large;
-    font-weight: bold;
-    font-style: italic;
-    }
-    &__2nd__3rd-list{
-        padding-left: 60px;
-            font-style: italic;
-            font-size: large;
-            margin: 5px;
-
-    }
+    
     &__3rd {
+         @media  (max-width:760px) and (min-width:340px) {
+            height: fit-content;
+         }
         display: flex;
             flex-direction: column;
-            background-color: rgb(205, 243, 69);
+            background-color:aliceblue;
             border-radius: 15px;
             margin: 10px;
             width: 95%;
-            height: 200px;
+            height: fit-content;
             padding-left: 10px;
             padding-top: 15px;
             overflow: hidden;
-            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-        
-            &:hover {
-                transform: translateY(-5px);
-                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-            }
+             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            
+            
     }
     &__3rd__variation{
+          @media  (max-width:760px) and (min-width:340px) {
+            text-align: center;
+          }
         font-style: italic;
             font-weight: bold;
             font-size: larger;
@@ -131,21 +162,30 @@
 
     }
     &__3rd__variations-list{
+        @media  (max-width:760px) and (min-width:340px) {
+            hyphens: auto;
+            line-height: 1.5;
+            padding-left: 25px;
+        }
+
         padding-left: 60px;
             font-style: italic;
             font-size: large;
             margin: 5px;
+            line-height: 1.5;
+            margin: 10px;
     }
     &__navbar {
         top: 0;
         position: sticky;
         display: flex;
         flex-direction: column;
-        background-color: rgb(205, 243, 69);;
+        background-color:aliceblue;
         height: 70px;
         border-radius: 15px;
-        width: 98%;
+        width: 95%;
         margin: 10px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     }
       &__navbar__header{
         text-align: center;
@@ -155,13 +195,14 @@
         padding-top: 5px;
       }
       &__navbar__btn {
-     background-color: rgb(215, 245, 107);;
+     background-color: rgb(235, 244, 252);
        border-radius: 10px;
        border: none;
         width: 70px;
         height: 40px;
         text-align: center;
         cursor: pointer;
+        box-shadow: 5px 2px 5px rgb(220, 233, 229);
         transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
             &:hover {
                    

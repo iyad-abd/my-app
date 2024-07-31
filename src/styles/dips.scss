@@ -2,12 +2,15 @@
  display: flex;
      flex-direction: column;
     flex-wrap: wrap;
-    background-color: rgb(176, 197, 101);
+    background-color:rgb(169, 202, 252);
     &__benefits {
+         @media  (max-width:760px) and (min-width:340px) {
+            height: fit-content;
+         }
     display: flex;
         
     flex-direction: column;
-     background-color: rgb(205, 243, 69);
+     background-color: aliceblue;
     border-radius: 15px;
      margin: 10px;
      width: 95%;
@@ -16,14 +19,14 @@
   padding-left: 15px;
      padding-top: 15px;
   overflow: hidden;
-     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-        
-         &:hover {
-          transform: translateY(-5px);
-          box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-   }
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    
   }
    &__benefits__title {
+    @media  (max-width:760px) and (min-width:340px) {
+        text-align: center;
+        
+    }
     font-style: italic;
     font-weight: bold;
       font-size: larger;
@@ -32,16 +35,25 @@
        }
             
    &__benefits__list {
+     @media  (max-width:760px) and (min-width:340px) {
+        margin: 10px;
+        padding-left: 25px;
+        line-height: 1.5;
+        hyphens: auto;
+     }
       font-style: italic;
      padding-left: 40px;
        padding-top: 8px;
         font-size: large;
    }
     &__targeted-muscles{
+         @media  (max-width:760px) and (min-width:340px) {
+            height:fit-content;
+         }
             display: flex;
             
                 flex-direction: column;
-                background-color: rgb(205, 243, 69);
+                background-color:aliceblue;
                 border-radius: 15px;
                 margin: 10px;
                 width: 95%;
@@ -50,15 +62,14 @@
                 padding-left: 15px;
                 padding-top: 15px;
                 overflow: hidden;
-                transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-            
-                &:hover {
-                    transform: translateY(-5px);
-                    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-                }
+                 box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+               
 
         }
         &__targeted-muscles__title{
+             @media  (max-width:760px) and (min-width:340px) {
+              text-align: center;
+             }
             font-style: italic;
                 font-weight: bold;
                 font-size: larger;
@@ -66,6 +77,13 @@
                 padding-bottom: 5px;
         }
         &__targeted-muscles__list{
+             @media  (max-width:760px) and (min-width:340px) {
+              text-align: left;
+              line-height: 1.5;
+              hyphens: auto;
+              margin: 10px;
+              padding: 25px;
+             }
             font-style: italic;
                 padding-left: 40px;
                 padding-top: 8px;
@@ -73,10 +91,13 @@
         }
 
          &__variations{
+            @media  (max-width:760px) and (min-width:340px) { 
+              height: fit-content ;
+             }
             display: flex;
             
                 flex-direction: column;
-                background-color: rgb(205, 243, 69);
+                background-color: aliceblue;
                 border-radius: 15px;
                 margin: 10px;
                 width: 95%;
@@ -85,15 +106,14 @@
                 padding-left: 15px;
                 padding-top: 15px;
                 overflow: hidden;
-                transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-            
-                &:hover {
-                    transform: translateY(-5px);
-                    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-                }
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+              
 
         }
         &__variations__title{
+             @media  (max-width:760px) and (min-width:340px) { 
+              text-align: center;
+             }
             font-style: italic;
                 font-weight: bold;
                 font-size: larger;
@@ -101,10 +121,19 @@
                 padding-bottom: 5px;
         }
         &__variations__list{
+             @media  (max-width:760px) and (min-width:340px) { 
+             text-align: left;
+             line-height: 1.5;
+             hyphens: auto;
+             margin: 10px;
+             padding-left: 25px;
+             }        
             font-style: italic;
                 padding-left: 40px;
                 padding-top: 8px;
                 font-size: large;
+                width: 750px;
+                margin: 10px;
         }
 
          &__navbar {
@@ -112,11 +141,12 @@
         position: sticky;
                      display: flex;
                      flex-direction: column;
-                     background-color: rgb(205, 243, 69);
-                     ;
+                     background-color:aliceblue;
+                     
+                      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
                      height: 70px;
                      border-radius: 15px;
-                     width: 98%;
+                     width: 95%;
                      margin: 10px;
                  }
         
@@ -129,7 +159,7 @@
                  }
         
                  &__navbar__btn {
-                     background-color: rgb(215, 245, 107);
+                     background-color:  rgb(235, 244, 252);
                      ;
                      border-radius: 10px;
                      border: none;
@@ -137,6 +167,7 @@
                      height: 40px;
                      text-align: center;
                      cursor: pointer;
+                      box-shadow: 5px 2px 5px rgb(220, 233, 229);
                      transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
         
                      &:hover {

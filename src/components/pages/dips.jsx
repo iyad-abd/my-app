@@ -12,16 +12,15 @@ function Dips() {
             <div className="dips__benefits">
                 <p className="dips__benefits__title">Dips benefits</p>
     <ul className="dips__benefits__list">
-        <li><strong></strong> Strengthens Triceps</li>
-        <li><strong></strong> Builds Chest Muscles</li>
-        <li><strong></strong> Improves Shoulder Stability</li>
-        <li><strong></strong> Enhances Upper Body Strength</li>
-        <li><strong></strong> Improves Muscle Definition</li>
-        <li><strong></strong> Can Be Done Anywhere</li>
-        <li><strong></strong> Boosts Functional Fitness</li>
-        <li><strong></strong> Variety of Progressions</li>
-        <li><strong></strong> Improves Core Strength</li>
-        <li><strong></strong> Enhances Cardiovascular Health</li>
+        <li><strong></strong> <b> Strengthens Triceps </b></li>
+        <li><strong></strong> <b> Builds Chest Muscles</b></li>
+        <li><strong></strong> <b> Improves Shoulder Stability</b></li>
+        <li><strong></strong> <b> Enhances Upper Body Strength</b></li>
+        <li><strong></strong> <b> Improves Muscle Definition</b></li>
+        <li><strong></strong> <b> Can Be Done Anywhere</b></li>
+        <li><strong></strong> <b> Boosts Functional Fitness</b></li>
+        <li><strong></strong> <b>  Variety of Progressions</b></li>
+        <li><strong></strong> <b> Enhances Cardiovascular Health</b></li>
     </ul>
             </div>
             <div className="dips__targeted-muscles">
@@ -44,9 +43,7 @@ function Dips() {
         <li><strong> Ring Dips:</strong> Dips performed using gymnastic rings for greater instability and core engagement.</li>
         <li><strong> L-sit Dips:</strong> Holding an L-sit position while performing dips to intensify core engagement.</li>
         <li><strong> Knee Raise Dips:</strong> Combining dips with knee or leg raises to involve abdominal muscles.</li>
-        <li><strong> One-Arm Dips:</strong> Advanced variation with one hand behind the back or on the hip, targeting triceps and core.</li>
-        <li><strong> Explosive Dips:</strong> Dips performed with an explosive upward movement to develop power and strength.</li>
-        <li><strong> Tricep Dips:</strong> Variations emphasizing triceps with different hand placements or angles.</li>
+       
     </ul>
 </div>
 

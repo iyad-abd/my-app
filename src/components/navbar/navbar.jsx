@@ -6,7 +6,7 @@ function Navbar() {
 
         <div className="navbar">
     <div className="navbar__title">
-        <h4>Iyado <b>CALISTHENICS</b> { }App</h4>
+        <h4>Iyado <b >CALISTHENICS</b> { }App</h4>
     
     </div>
     <div className="navbar__info"> 

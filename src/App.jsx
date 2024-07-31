@@ -7,22 +7,27 @@ import Card from "./components/pages/cards.jsx";
 import Pullup from "./components/pages/pull-up.jsx";
 import Pushup from "./components/pages/push-up.jsx";
 import Dips from "./components/pages/dips.jsx";
-   
+import ScrollToTop from "./components/scroll.jsx";
 function App() {
-   
+    
       
   
     return (
             
         <>
             
-        <Routes>
+             <ScrollToTop />
+            <Routes>
+                
+                
+                   
                 <Route path="/"element={[<Navbar/>,<DesktopCard/>,<Card/>]}>   
                 </Route>
                 <Route path="/info" element={<Info />} />
                 <Route path="/pull-up" element={<Pullup />} />
                 <Route path="/push-up" element={<Pushup />} />
-                <Route path="/dips" element={<Dips/>} />
+                    <Route path="/dips" element={<Dips />} />
+                   
             </Routes>
                 </>
         )
